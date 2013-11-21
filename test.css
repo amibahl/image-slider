@@ -1,0 +1,35 @@
+body{
+	background: url("images/bg01.jpg") repeat;
+	color: #fff;
+}
+
+#slider{
+	margin: 100px auto 0;
+	width: 350px;
+	height: 280px;
+}
+
+ul li{
+	list-style: none;
+	display: none;
+}
+
+.active{
+	display: block;
+}
+
+.controlPrevious{
+	float: left;
+	cursor: pointer;
+	margin: 132px 0;
+}
+
+.controlNext{
+	margin: -172px -17px;
+	float: right;
+	cursor: pointer;
+}
+
+#dropdown{
+	margin: 0 162px;
+}

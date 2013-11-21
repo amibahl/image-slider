@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+<!--
+
+1. Use HTML, CSS and jQuery to build a simple image slideshow
+2. Do not use any third party (jQuery or other libraries) slideshow plugins
+3. Update the HTML as needed
+4. Display one image at a time
+5. Add a select field (dropdown menu) to the page to allow user to display another image
+6. Use the data in image tag alt attribute to populate the select field displayed options
+7. The unordered list and image tags should be included in the completed HTML page
+8. Your submitted work must be a functional stand-alone working HTML page
+
+-->
+<div id="slider">
+  <div id="previous" class="controlPrevious">Previous</div>
+  <ul>
+    <li class="active">
+      <img src="http://www.healthline.com/hlcmsresource/images/slideshow/10-Best-ADHD-Apps/ADD-INTRO.jpg" alt="Intro">
+    </li>
+    <li>
+      <img src="http://www.healthline.com/hlcmsresource/images/slideshow/10-Best-ADHD-Apps/Due.jpg" alt="Due">
+    </li>
+    <li>
+      <img src="http://www.healthline.com/hlcmsresource/images/slideshow/10-Best-ADHD-Apps/EpicWin.jpg" alt="EpicWin">
+    </li>
+    <li>
+      <img src="http://www.healthline.com/hlcmsresource/images/slideshow/10-Best-ADHD-Apps/Evernote.jpg" alt="Evernote">
+    </li>
+    <li>
+      <img src="http://www.healthline.com/hlcmsresource/images/slideshow/10-Best-ADHD-Apps/Clear.jpg" alt="Clear">
+    </li>
+  </ul>
+  <div id="next" class="controlNext">Next</div>
+  <select id="dropdown"></select>
+</div>  
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="test.js"></script>
+</body>
+</html>
